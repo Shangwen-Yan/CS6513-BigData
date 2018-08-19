@@ -1,0 +1,6 @@
+total train data / fold:565
+total test / fold:149
+seed:17
+AUC = 0.7466630591630592
+ACCURACY = 0.7516778523489933
+PreCISION = 0.8174951748037023

@@ -1,0 +1,6 @@
+total train data:713
+total test :1
+seed:17
+AUC = 0.0
+ACCURACY = 0.0
+PreCISION = 0.0

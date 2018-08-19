@@ -1,0 +1,24 @@
+netid: 
+	sy2160
+
+datatset:
+	./103_20150615143630_00_00_000.csv
+
+method to run:
+	1. change working directory to ~/HW1/
+        2. type the following command: Rscript 1.data_wragling.R
+	3. then we get the output: ./data/clean_data.csv, which only contains the specific columns we need and column names have been added.
+	4. type the following command:  mysql -u <username> -p -e "2.data_analysis.sql" 	   #use your own username and password
+	   #make sure you have privilege to create database
+	   #otherwise pls change 2.data_analysis.sql by using your own database name
+	   #change the output path in 2.data_analysis.sql to the absolute path of ./dataset/
+	5. then we get several output files in ./data/ which are going to be visualized in next step.
+	6. type: Rscript 3.visualization.R
+	7. then we get output images in ./img/
+	8. please check the formatted result in 4.output_report.pdf
+	9. I'm not sure if it is necessary to use spark(cause R and SQL are enough for this project). If yes, I also upload a Spark project in ~/HW1/sparkML/ . I hope it will not cause losing grades for not using spark in this project. Regards.
+		
+
+results:
+	results combined in 4.output_report.pdf
+	

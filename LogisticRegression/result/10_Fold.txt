@@ -1,0 +1,10 @@
+train data per fold:646
+test data per fold:68
+seed:17
+auc: 0.7316849816849816
+accuracy: 0.75
+precision: 0.68
+tpr: 0.6538461538461539
+tnr: 0.8095238095238095
+fpr: 0.19047619047619047
+fnr: 0.34615384615384615
